@@ -47,6 +47,7 @@
   width: 30%;
   float: left;
   padding-left: 5%;
+  cursor: pointer;
 }
 
 .col:first-child {
@@ -64,11 +65,18 @@
   font-weight: bold;
 }
 
+.item-text-logo-link {
+  color: #fff;
+}
+
+.item-text-button-link {
+  color: #000;
+}
+
 .b-menu {
   width: 70%;
-  /* line-height: 80px; */
   float: left;
-  padding: 30px 0;
+  padding: 22px 0;
 }
 
 .horizontal {
@@ -192,6 +200,7 @@
 
 .item-text-depcription {
   color: rgba(95, 89, 89, 0.733);
+  line-height: 1.5;
 }
 
 .button {
